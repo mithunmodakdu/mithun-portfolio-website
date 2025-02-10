@@ -236,6 +236,11 @@ canvas {height: auto !important; position: absolute; width: 100% !important; lef
 .theme-bg .ht-progress-bar h4, .purple-bg .ht-progress-bar h4, .purple-bg .ht-progress-bar .progress-parcent{color: #ffffff}
 .theme-bg .ht-progress-bar .progress-parcent{color: #ff3342}
 
+.skill_img{
+    width: 70px;
+    height: 70px;
+}
+
 /* ------------------------
     Counter
 ------------------------*/
