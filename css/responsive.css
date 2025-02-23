@@ -29,6 +29,9 @@
    .logo img {
     width: 270px !important;
     height: 70px !important;
+    }
+  .c_navbar{
+    z-index: 10;
   }
   .navbar {justify-content: flex-end; width: 100%; border-radius: 0 !important;}
   .navbar-brand {left: 10px; margin-right: 0; position: absolute; top: 50%; padding: 0; transform: translateY(-50%); -webkit-transform: translateY(-50%); -o-transform: translateY(-50%); -ms-transform: translateY(-50%); -moz-transform: translateY(-50%);}
@@ -72,8 +75,8 @@
   .my-name {
     font-size: 32px;
   }
-  .my-designation{
-    font-size: 14px !important;
+  .banner-desig{
+    font-size: 20px;
     text-align: center;
   }
   .fullscreen-banner p br{display: none;}   
@@ -144,6 +147,9 @@
     width: 300px !important;
     height: 70px !important;
   }
+  .c_navbar{
+    z-index: 10;
+  }
   .navbar {justify-content: flex-end; width: 100%; border-radius: 0 !important;}
   .navbar-brand {left: 10px; margin-right: 0; position: absolute; top: 50%; padding: 0; transform: translateY(-50%); -webkit-transform: translateY(-50%); -o-transform: translateY(-50%); -ms-transform: translateY(-50%); -moz-transform: translateY(-50%);}
   .navbar-toggler {background:none; padding: 0; height: 40px; width: 40px; border-radius: 0; -webkit-box-shadow: 0 18px 42px 0 rgba(28, 30, 35, 0.15); -moz-box-shadow: 0 18px 42px 0 rgba(28, 30, 35, 0.15); box-shadow: 0 18px 42px 0 rgba(28, 30, 35, 0.15);}
@@ -185,8 +191,9 @@
   .my-name {
     font-size: 36px;
   }
-  .my-designation{
-    font-size: 16px !important;
+ 
+  .banner-desig{
+    font-size: 24px;
     text-align: center;
   }
   
@@ -240,6 +247,9 @@
     width: 300px !important;
     height: 70px !important;
   }
+  .c_navbar{
+    z-index: 10;
+  }
   .navbar {justify-content: flex-end; width: 100%; border-radius: 0 !important;}
   .navbar-brand {left: 10px; margin-right: 0; position: absolute; top: 50%; padding: 0; transform: translateY(-50%); -webkit-transform: translateY(-50%); -o-transform: translateY(-50%); -ms-transform: translateY(-50%); -moz-transform: translateY(-50%);}
   .navbar-toggler {background:none; padding: 0; height: 40px; width: 40px; border-radius: 0; -webkit-box-shadow: 0 18px 42px 0 rgba(28, 30, 35, 0.15); -moz-box-shadow: 0 18px 42px 0 rgba(28, 30, 35, 0.15); box-shadow: 0 18px 42px 0 rgba(28, 30, 35, 0.15);}
@@ -283,9 +293,9 @@
   .my-name {
     font-size: 40px;
   }
-  .my-designation{
-    font-size: 20px !important;
-    text-align: center;
+  .banner-desig{
+    font-size: 24px;
+    
   }
   
   /*Counter*/
@@ -326,7 +336,10 @@ h6 {font-size: 17px; line-height: 24px;}
 #header-wrap.fixed-header .logo img {height: 70px;}
 
 /* banner */
-
+.banner-desig{
+  font-size: 24px;
+  
+}
 
 /*Blog*/
 .post .post-desc {padding: 20px;}
