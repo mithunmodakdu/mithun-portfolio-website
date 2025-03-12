@@ -34,7 +34,16 @@
 ------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,700,800,900');
 
-body {font-family: 'Nunito', sans-serif; position: relative; font-weight: normal; font-style: normal; font-size: 15px; line-height: 1.7; color:#262821; overflow-x: hidden;}
+body {
+    font-family: 'Nunito', sans-serif; 
+    position: relative; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-size: 15px; 
+    line-height: 1.7; 
+    color:#262821; 
+    overflow-x: hidden;
+}
 
 h1, h2, h3, h4, h5, h6{font-weight:normal; margin-top: 0px; margin-bottom: 0px; text-transform: capitalize;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
@@ -71,11 +80,11 @@ section{padding: 100px 0;}
 /* ------------------------
     Background color
 ------------------------*/
-.white-bg{background:#ffffff;}
-.purple-bg{background:#800080 !important;}
-.grey-bg{background:#fdfdfd;}
 .theme-bg{background:#ff3342;}
+.purple-bg{background:#800080 !important;}
 .purple-bg a{color: #ffffff;}
+.white-bg{background:#ffffff;}
+.grey-bg{background:#fdfdfd;}
 
 
 /* ------------------------
@@ -109,7 +118,8 @@ section{padding: 100px 0;}
     Social Icon
 ------------------------*/
 .social-icon li{margin-right: 0 !important; display: inline-block;}
-.social-icon li a{border-radius: 5px; text-align: center; margin: 0 5px; width: 40px; display: inline-block; line-height: 40px; height: 40px; font-size: 18px; background: none; color:  #17202a;}
+.social-icon li a{border-radius: 5px; text-align: center; margin: 0 5px; width: 40px; 
+    display: inline-block; line-height: 40px; height: 40px; font-size: 18px; background: none; color:  #17202a;}
 .social-icon li a:hover{background: #ff3342; color: #ffffff;}
 .theme-bg .social-icon li a{background: #ffffff;} 
 .theme-bg .social-icon li a:hover{color: #ff3342;} 
@@ -185,7 +195,7 @@ canvas {height: auto !important; position: absolute; width: 100% !important; lef
     font-weight: 600;
   }
 .auto-type{
-    color: #800080;
+    color: black;
   }
 
 /* ------------------------
@@ -200,15 +210,15 @@ canvas {height: auto !important; position: absolute; width: 100% !important; lef
 /* ------------------------
     Title
 ------------------------*/
-.title{font-weight: 800; position: relative; padding-left: 15px; padding-right: 20px; display: inline-block; margin-bottom: 15px;}
+.title{
+    font-weight: 800; 
+    padding-right: 20px; 
+    margin-bottom: 15px;
+    color: purple;
+}
+
 .title span{color: #ff3342}
 
-.purple-bg .title:before, .theme-bg .title:before{background: rgba(255,255,255,0.1);}
-.title:after{content: ""; background: #ff3342; border-radius: 7px; width: 5px; height: 100%; position: absolute; left: 0; top: 50%; z-index: -1}
-.purple-bg .title{color: #ffffff;}
-.purple-bg .title, .theme-bg .title, .white-bg .title, .grey-bg .title{z-index: 9;}
-.theme-bg .title span{color: #ffffff;}
-.theme-bg .title:after{background: #ffffff;}
 
 /* ------------------------
     About Us
